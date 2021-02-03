@@ -1,0 +1,35 @@
+<address>
+	<address>
+		<name>
+			<fistname>John</fistname>
+			<lastname>Doe</lastname>
+		</name>
+		<id>1</id>
+                <address>H# 38, R#3, Banani, Dhaka</address>
+		<dept>sales</dept>
+                <salary>$20000</salary> 
+	</address>
+
+	<address>
+		<name>
+			<fistname>Mark</fistname>
+			<lastname>Zuckerberg</lastname>
+		</name>
+		<id>2</id>
+                <address>Flat# A/1, H# 20, R#18, Mirpur, Dhaka</address>
+		<dept>Accounts</dept>
+                <salary>$12000</salary> 
+	</address>
+
+	<address>
+		<name>
+			<fistname>Ala</fistname>
+			<lastname>Voski</lastname>
+		</name>
+		<id>3</id>
+                <address>H# 38, R#3, Motijheel</address>
+		<dept>Human Resource</dept>
+                <salary>$30000</salary> 
+	</address>
+
+</address>
