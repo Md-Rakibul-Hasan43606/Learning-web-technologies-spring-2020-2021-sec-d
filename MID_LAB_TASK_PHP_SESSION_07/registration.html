@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+
+	<fieldset>
+		
+	<table align="center" width="100%">
+		<tr height="60px">
+			<td width="50px">
+				<img src="images/logo.png" width="130px">
+			</td>
+
+			<td align="right">
+			<a href="home.html">Home</a>|
+			<a href="login.html">Login</a>|
+			<a href="registration.html">Registration</a>
+			</td>
+		</tr>
+	</table>
+	<hr>
+	<form method="post" action="regCheck.php">
+		
+		<fieldset>
+			<legend>REGISTRATION</legend>
+			<table width="100%">
+				<tr>
+					<td>Name: </td>
+					<td><input type="text" name="name" value=""></td>
+				</tr>
+			</table>
+			<hr>
+			<table width="100%">
+				<tr>
+					<td>Email: </td>
+					<td><input type="email" name="email" value=""></td>
+				</tr>
+			</table>
+			<hr>
+			<table width="65%">
+				<tr>
+					<td>User Name: </td>
+					<td><input type="text" name="username" value=""></td>
+				</tr>
+			</table>
+			<hr>
+
+			<table width="78%">
+				<tr>
+					<td>Password: </td>
+					<td><input type="password" name="password" value=""></td>
+				</tr>
+			</table>
+			<hr>
+
+			<table width="50%">
+				<tr >
+					<td>Confirm Password: </td>
+					<td><input type="password" name="confirmPassword" value=""></td>
+				</tr>
+			</table>
+			<hr>
+			<fieldset >
+				<legend>Gender</legend>
+				<input type="radio" name="gender" value="male">Male
+				<input type="radio" name="gender" value="female">Female
+				<input type="radio" name="gender" value="other">Other
+			</fieldset>
+
+			<fieldset>
+				<legend><b>Date Of Birth</b></legend>
+					<table>
+						<tr>
+							<td>
+								<i>dd</i>
+							</td>
+							<td>
+								<i>mm</i>
+							</td>
+							<td>
+								<i>yy</i>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<input type="text" size="10" name="dd" value="">/
+							</td>
+							<td>
+								<input size="10" type="text" name="mm" value="">/
+							</td>
+							<td>
+								<input size="10" type="text" name="yy" value="">
+							</td>
+							
+						</tr>
+					</table>			
+			</fieldset>
+			<table>
+				<tr>
+					<td><input type="submit" name="submit" value="submit"></td>
+					<td><input type="reset" name="reset" value="reset"></td>
+				</tr>
+			</table>		
+		</fieldset>
+	</form>
+	<br>
+	<hr>
+	
+	<p align="center">Copyright &copy 2017</p>
+	</fieldset>
+	
+</body>
+</html>
