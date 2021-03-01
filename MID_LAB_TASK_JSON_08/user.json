@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Md.Rakibul Hasan",
+        "email": "rayanalrakib@gmail.com",
+        "username": "&Rakib",
+        "password": "12345",
+        "conPass": "12345",
+        "gender": "male",
+        "day": "15",
+        "month": "12",
+        "year": "1998"
+    },
+    {
+        "name": "Md.Rifat Hasan",
+        "email": "rakibulhasan18383882@gmail.com",
+        "username": "Rifat",
+        "password": "23456",
+        "conPass": "23456",
+        "gender": "male",
+        "day": "13",
+        "month": "6",
+        "year": "1997"
+    },
+    {
+        "name": "Tusar Riyan",
+        "email": "tusar@gmail.com",
+        "username": "Tusar",
+        "password": "987654",
+        "conPass": "987654",
+        "gender": "male",
+        "day": "15",
+        "month": "08",
+        "year": "1998"
+    }
+]
